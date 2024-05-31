@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    height: 1024px;
+    background-color: #f2f9ed;
+    align-items: center;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 660px;
+    width: 95%;
+    height: 810px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 45px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 10px;
+    line-height: 65px;
+    font-size: 64px;
+    font-weight: 700;
+    color: #61481C;
+}
+
+h1>span {
+    color: #48A300;
+}
+
+h3 {
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+}
+
+h3>img {
+    margin-left: 5px;
+}
+
+.container>p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #858585;
+    line-height: 21px;
+    margin-top: 32px;
+}
+
+.bar {
+    margin-top: 16px;
+    background-color: #48A3001A;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.container p:nth-of-type(2) {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.goal {
+    margin-top: 32px;
+    height: 82px;
+    width: 100%;
+    border: 1px solid #000000;
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.goal>input[type=text] {
+    border: none;
+    font-size: 16px;
+    padding-left: 10px;
+    font-weight: 500px;
+    outline: none;
+    width: 60%;
+}
+
+.container p:nth-of-type(3) {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    color: black;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.container p:nth-of-type(4) {
+    margin-top: 50px;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 15px;
+    text-align: center;
+    color: #858585;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.barValue {
+    height: 100%;
+    width: 0%;
+    font-size: 10px;
+    background-color: #48A300;
+    border-radius: 20px;
+    padding-left: 20px;
+    Line-height: 15px;
+    display: flex;
+    color: #EEFFE0;
+    font-weight: 500;
+    align-items: center;
+}
+
+.check {
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
